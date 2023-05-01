@@ -1,0 +1,43 @@
+/*************************************/
+/***END Of FOR MAXIMUM WiDTH 1080px***/
+/*************************************/
+
+/***
+****    generic roules
+***/
+@media screen and (min-width: 1px){
+    
+    table,th,td {
+        border: red double;
+    }
+}
+
+    h1 {
+        font-size: 4rem;
+    }
+/*** For mobile device
+     maxmum width 1080px            ***/
+/**************************************/
+@media screen and (max-width: 1080px) {
+/***
+    table,td,th {
+        border: solid thick black ;
+    } ***/
+    body {
+        width: 980px;
+        font-size: 250%;
+        line-height: 2em;
+        margin: 2em;
+    }
+
+    aside { 
+        background-color: rgb(225, 255, 0);
+        border: solid red thick;
+    }
+
+    table,td {
+        border: yellowgreen solid;
+    }
+
+
+}
